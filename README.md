@@ -1,6 +1,8 @@
 # # PL2024
 TPC da cadeira de Processamento de Linguagens(2023/2024).
-Inês Marques \n
+
+Inês Marques
+
 A100606
 
 
@@ -8,9 +10,9 @@ A100606
 
 Este script Python analisa um arquivo CSV ("emd.csv") contendo informações sobre atletas. As operações incluem:
 
-Leitura do Arquivo (Verifica a existência do arquivo "emd.csv". Carrega as informações do arquivo.)
-Ordenação por Modalidade (Organiza os atletas com base na modalidade desportiva.)
-Porcentagem de Atletas Aptos (Calcula a porcentagem de atletas marcados como "apto".)
-Distribuição por Escalão Etário (Agrupa atletas em intervalos de 5 anos.)
+Leitura do Arquivo (e verifica a existência do arquivo "emd.csv").
+Ordenação alfabetica os atletas por Modalidade Desportiva.
+Calculo de percentagem de Atletas Aptos.
+Distribuição por Escalão Etário (intervalos de 5 anos).
 
 
