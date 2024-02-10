@@ -1,9 +1,9 @@
-# # PL2024
+# PL2024
 TPC da cadeira de Processamento de Linguagens(2023/2024).
 
-Inês Marques
+Inês Marques, A100606
 
-A100606, LEI
+LEI
 
 
  # Trabalho 1
