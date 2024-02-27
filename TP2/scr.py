@@ -57,10 +57,9 @@ def ordered_lists_check(html_text: str) -> str:
     
     return "\n".join(result)
 
-# Exemplo de uso
+# Exemplo
 markdown_input = "# Exemplo\n\nComo se vê na imagem seguinte: ![imagem dum coelho](http://www.coellho.com) ...\nEste é um *exemplo jjjjjj* ...\n\n1. Primeiro item\n2. Segundo item\n3. Terceiro item\n\nComo pode ser consultado em [página da UC](http://www.uc.pt)\n"
 html_output = markdown_to_html(markdown_input)
 processed_html = ordered_lists_check(html_output)
 
-# Imprimir a saída com quebras de linha visíveis
 print(processed_html)
