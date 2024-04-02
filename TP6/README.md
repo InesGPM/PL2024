@@ -1,9 +1,9 @@
 # Trabalho 6 
 
 Exemplo da linguagem: <br>
-  ?a
-  b=a*2/(27-3)
-  !a+b
+  ?a  <br>
+  b=a*2/(27-3)  <br>
+  !a+b  <br>
   c=a*b/(a/b)
 
 ## Requerimento:
