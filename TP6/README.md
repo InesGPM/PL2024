@@ -20,7 +20,7 @@ __Exemplo da linguagem:__ <br>
 - `=`: Operador de atribuição
 - `+`, `-`: Operadores de adição e subtração
 - `*`, `/`: Operadores de multiplicação e divisão
-- `(`, `)`: Parênteses de abertura e fechamento
+- `(`, `)`: Parênteses
 
 ## Não-Terminais:
 - `S`: Início do programa
