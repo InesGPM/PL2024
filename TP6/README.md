@@ -1,4 +1,4 @@
-#Trabalho 6 
+# Trabalho 6 
 
 Exemplo da linguagem: 
   ?a
@@ -6,35 +6,32 @@ Exemplo da linguagem:
   !a+b
   c=a*b/(a/b)
 
-#Requerimento:
-Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos operadores, além de calcular os Look Ahead para todas as regras de produção.
-
-##Gramática Independente de Contexto LL(1)
-
-#Terminais
-
-id: Identificador
-num: Número
-?: Operador de leitura
-!: Operador de impressão
-=: Operador de atribuição
-+, -: Operadores de adição e subtração
-*, /: Operadores de multiplicação e divisão
-(: Parêntese de abertura
-): Parêntese de fechamento
+# Requerimento:
+Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos operadores, além de calcular os LookAhead para todas as regras de produção.
 
 
-#Não-Terminais
+# Gramática para Linguagem de Programação Simples.
 
-S: Início do programa
-LER: Regra de leitura
-IMP: Regra de impressão
-ATRIB: Regra de atribuição
-EXP: Expressão aritmética
-TERM: Termo na expressão
-FATOR: Fator na expressão
+# Terminais:
+- `id`: Identificador
+- `num`: Número
+- `?`: Operador de leitura
+- `!`: Operador de impressão
+- `=`: Operador de atribuição
+- `+`, `-`: Operadores de adição e subtração
+- `*`, `/`: Operadores de multiplicação e divisão
+- `(`, `)`: Parênteses de abertura e fechamento
 
-#Produções
+# Não-Terminais:
+- `S`: Início do programa
+- `LER`: Regra de leitura
+- `IMP`: Regra de impressão
+- `ATRIB`: Regra de atribuição
+- `EXP`: Expressão aritmética
+- `TERM`: Termo na expressão
+- `FATOR`: Fator na expressão
+
+# Produções:
 
 S -> LER | IMP | ATRIB
 LER -> '?' id
@@ -46,8 +43,7 @@ TERM -> FATOR RESTO_TERM
 RESTO_TERM -> ('*' FATOR RESTO_TERM) | ('/' FATOR RESTO_TERM) | ε
 FATOR -> '(' EXP ')' | num | id
 
-
-#Lookahead's
+# Lookahead's
 LA(S) = {'?', '!', id}
 LA(LER) = {'?'}
 LA(IMP) = {'!'}
