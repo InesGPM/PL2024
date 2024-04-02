@@ -1,13 +1,13 @@
 # Trabalho 6 
 
+## Requerimento:
+Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos operadores, além de calcular os LookAhead para todas as regras de produção.
+
 __Exemplo da linguagem:__ <br>
   ?a  <br>
   b=a*2/(27-3)  <br>
   !a+b  <br>
   c=a*b/(a/b)
-
-## Requerimento:
-Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos operadores, além de calcular os LookAhead para todas as regras de produção.
 
 
 # Gramática para Linguagem de Programação Simples.
