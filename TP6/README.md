@@ -6,13 +6,13 @@ Exemplo da linguagem:
   !a+b
   c=a*b/(a/b)
 
-# Requerimento:
+## Requerimento:
 Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos operadores, além de calcular os LookAhead para todas as regras de produção.
 
 
-## Gramática para Linguagem de Programação Simples.
+# Gramática para Linguagem de Programação Simples.
 
-# Terminais:
+## Terminais:
 - `id`: Identificador
 - `num`: Número
 - `?`: Operador de leitura
@@ -22,7 +22,7 @@ Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos o
 - `*`, `/`: Operadores de multiplicação e divisão
 - `(`, `)`: Parênteses de abertura e fechamento
 
-# Não-Terminais:
+## Não-Terminais:
 - `S`: Início do programa
 - `LER`: Regra de leitura
 - `IMP`: Regra de impressão
@@ -31,7 +31,7 @@ Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos o
 - `TERM`: Termo na expressão
 - `FATOR`: Fator na expressão
 
-# Produções:
+## Produções:
 
 - S -> LER | IMP | ATRIB
 - LER -> '?' id
@@ -43,7 +43,7 @@ Garantir que as regras de produção sejam LL(1) e determinar a prioridade dos o
 - RESTO_TERM -> ('*' FATOR RESTO_TERM) | ('/' FATOR RESTO_TERM) | ε
 - FATOR -> '(' EXP ')' | num | id
 
-# Lookahead's
+## Lookahead's
 - LA(S) = {'?', '!', id}
 - LA(LER) = {'?'}
 - LA(IMP) = {'!'}
