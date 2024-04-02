@@ -1,6 +1,6 @@
 # Trabalho 6 
 
-Exemplo da linguagem: <br>
+__Exemplo da linguagem:__ <br>
   ?a  <br>
   b=a*2/(27-3)  <br>
   !a+b  <br>
